@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-import matplotlib.pyplot as plt
 import seaborn as sns
 
 gastos=pd.read_csv("https://drive.google.com/file/d/1kZOOvLyTGsIqlwiKbbhHpXvtve6MRZBC/view?usp=sharing")
