@@ -5,7 +5,9 @@ import numpy as np
 
 gastos=pd.read_csv("https://drive.google.com/file/d/1kZOOvLyTGsIqlwiKbbhHpXvtve6MRZBC/view?usp=sharing")
 facturacion=pd.read_csv("https://drive.google.com/file/d/1SwjLrbVWycFZXEMI_wfKtMc3ClkuGczf/view?usp=sharing")
-
+saldos=pd.read_csv("https://drive.google.com/file/d/1HCb8XhXbRfqY6ghHwvqFCnEvK9l-i5xX/view?usp=sharing")
+clientes=pd.read_csv("https://drive.google.com/file/d/1SwjLrbVWycFZXEMI_wfKtMc3ClkuGczf/view?usp=sharing")
+costos=pd.read_csv("https://drive.google.com/file/d/1kZOOvLyTGsIqlwiKbbhHpXvtve6MRZBC/view?usp=sharing")
 
 st.image("https://calorycontrol.com.mx/staging/wp-content/uploads/2021/04/LogoHorizontal-768x210.png", use_column_width=True)
 
