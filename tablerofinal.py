@@ -1,10 +1,7 @@
-!pip install seaborn
-
 import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-import seaborn as sns
 
 gastos=pd.read_csv("https://drive.google.com/file/d/1kZOOvLyTGsIqlwiKbbhHpXvtve6MRZBC/view?usp=sharing")
 facturacion=pd.read_csv("https://drive.google.com/file/d/1SwjLrbVWycFZXEMI_wfKtMc3ClkuGczf/view?usp=sharing")
